@@ -1,0 +1,165 @@
+body{
+	margin: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+.navbar{
+margin-bottom: 0px !important;
+  background-color:rgba(185, 95, 95, 0.336);
+  font-family: 'Ubuntu';
+
+}
+#about{
+	background-color: rgba(233, 220, 224, 0.082);
+	height: 340px;
+	border-bottom:2px solid black;
+
+}
+#image{
+	height: 230px;
+	border: 1px solid #AEACAA;
+	border-radius: 50%;
+	margin: 15% 0 10% 20%;
+}
+#contact{
+  height: 100px;
+}
+
+
+@media screen and (max-width: 767px){
+	#image{
+	height: 220px;
+	border: 1px solid #AEACAA;
+	border-radius: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}	
+}
+#intro h4,#aboutme h6{
+    /* text-align: center; */
+    
+	margin-top: 100px;
+	font-size: 50px;
+	font-family: 'Muli', cursive;
+}
+#intro h6,#aboutme h6{
+	font-family: 'Ubuntu', monospace;
+	font-size: 22px;
+}
+
+#blog{
+
+    position : absolute;
+    top : 62px;
+    right : 180px;
+    font-size: 100px;
+    font-family: 'Ubuntu';
+
+}
+#projects{
+	background-color: #FDF3E7;
+	height: 1400px;
+}
+#projects-text{
+  margin-left: 5%;
+}
+#projects h2,#contact h2,#contact h3{
+	font-size: 50px;
+    font-family: 'Muli', cursive;
+    padding-top : 25px;
+    height : 55px;
+}
+
+#skills{
+
+    padding-top : 30px;
+    height : 80px;
+
+}
+#projects img{
+	height: 50px;
+  border-radius: 50%;
+}
+.project-img{
+  width: 100px;
+  height: 150px;
+}
+.projects_row2{
+	margin-top: 15px;
+}
+#contact,#skills{
+	background-color: #C8C5C2;
+	text-align: center;
+}
+#contact h4,#skills h4{
+	margin-top: 30px;
+	font-family: 'Inconsolata', monospace;
+}
+#contact button,#skills button{
+	font-size: 20px;
+	margin-top : 24px;
+	padding : 12px;
+}
+
+.fa{
+
+	margin-top : 54px;
+	font-size: 44px;
+	padding : 54px;
+	margin : 24px;
+	border-radius : 20%;
+	
+
+}
+
+
+
+#contact h2{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/*Media Queries*/
+@media screen and (min-width: 769px) and (max-width: 992px){
+	#aboutme{
+		margin-top: -100px;
+		margin-left: 5%;
+	}
+	#about{
+        height: 480px;
+        margin : 48px;
+	}
+	#projects{
+		height: 775px;
+	}
+	#projects > div:nth-child(4){
+		margin-top: 15px;
+	}
+}
+@media screen and (max-width: 768px){
+	#intro{
+		margin-top: -135px;
+	}
+	#aboutme{
+		margin-top: -90px;
+	}
+	#about{
+		height: 700px;
+	}
+	#projects>div{
+		margin-top: 15px !important;
+	}
+	#projects{
+		height: 1450px;
+	}
+	#contact{
+		height: 400px;
+	}
+}
+.card{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 4%;
+}
